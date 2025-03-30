@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrevistas"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el tipo de entrevista que desea realizar:"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/technical_practice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Práctica técnica"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/sales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventas"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/product_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerente de producto"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/software_engineer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingeniero de software"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/product_designer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diseñador de productos"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nivel de dificultad"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/difficulty_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fácil"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/difficult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difícil"
+            android:textColor="@android:color/white"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/start_simulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar simulación"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
